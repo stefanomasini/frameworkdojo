@@ -1,4 +1,4 @@
-define(['libreact', 'jquery', 'jsx!react/view/tree', 'nodes'], function (React, $, treeViewMod, nodesMod) {
+define(['libreact', 'jquery', 'jsx!react/view/tree', 'core/nodes'], function (React, $, treeViewMod, nodesMod) {
     'use strict';
 
     var TreeLevel = treeViewMod.TreeLevel;
