@@ -14,16 +14,16 @@ require.config({
 
     paths: {
         lib: 'lib',
-        core: 'js/core',
-        test: 'js/react/test',
+        core: 'core',
+        test: 'react/test',
 
         // Aliases for libraries, so that we can change versions from here
-        libreact: 'js/bower_components/react/react.min',
-        JSXTransformer: 'js/bower_components/react/JSXTransformer',
-        jsx: 'js/lib/require-jsx',
-        jquery: 'js/bower_components/jquery/jquery.min',
-        lodash: 'js/bower_components/lodash/dist/lodash.min',
-        when: 'js/bower_components/when/when'
+        libreact: 'bower_components/react/react.min',
+        JSXTransformer: 'bower_components/react/JSXTransformer',
+        jsx: 'lib/require-jsx',
+        jquery: 'bower_components/jquery/jquery.min',
+        lodash: 'bower_components/lodash/dist/lodash.min',
+        when: 'bower_components/when/when'
     },
 
     shim: {

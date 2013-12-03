@@ -1,0 +1,23 @@
+{
+  "name": "frameworkdojo",
+  "version": "0.0.0",
+  "homepage": "https://github.com/stefanomasini/frameworkdojo",
+  "authors": [
+    "Stefano Masini <stefano@stefanomasini.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.0.2",
+    "react": "0.5.1",
+    "requirejs": "2.1.9",
+    "when": "2.6.0"
+  }
+}

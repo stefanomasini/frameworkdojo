@@ -5,7 +5,7 @@ module.exports = function(config) {
     config.set({
 
         // base path, that will be used to resolve files and exclude
-        basePath: '../..',
+        basePath: '../',
 
 
         // frameworks to use
@@ -14,13 +14,13 @@ module.exports = function(config) {
 
         // list of files / patterns to load in the browser
         files: [
-            'js/react/test/test-main.js',
-            {pattern: 'js/bower_components/**/*.js', included: false},
-            {pattern: 'js/core/**/*.js', included: false},
-            {pattern: 'js/lib/**/*.js', included: false},
-//            {pattern: 'static/js/**/*.coffee', included: false},
+            'react/test/test-main.js',
+            {pattern: 'bower_components/**/*.js', included: false},
+            {pattern: 'core/**/*.js', included: false},
+            {pattern: 'lib/**/*.js', included: false},
+//            {pattern: 'static/**/*.coffee', included: false},
 //            {pattern: 'static/lib/**/*.js', included: false},
-            {pattern: 'js/react/test/**/*Spec.js', included: false}
+            {pattern: 'react/test/**/*Spec.js', included: false}
         ],
 
 
